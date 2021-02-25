@@ -1,0 +1,23 @@
+/*
+   Name:Project2(6).
+   Author:Kostya Silchuk, group 109.
+   Description:Laboratory work N:2 Variables,constants and operators/ variant 13
+*/
+#include <iostream>
+#include <math.h>
+
+using namespace std;
+int main()
+{
+	float h,s,v,r;
+	cout<<"to enter r"<<endl;
+	cin>>r;
+	cout<<"to enter h"<<endl;
+	cin>>h;
+	s=3.14*r*r;
+	cout<<"result S:"<<s<<endl;
+	v=(s*h)/3;         
+	cout<<"result V:"<<v<<endl;
+    system("pause");
+	return 0;
+}
