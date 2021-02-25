@@ -1,0 +1,17 @@
+/*
+   Name:Project 2(7)
+   Author:Kostya Silchuk, group 109.
+   Description:Laboratory work N 2 Variables,constants and operators/ variant 13
+*/
+#include <iostream>
+using namespace std;
+int main() 
+{
+   unsigned int time=9000;
+   cout<<"Enter time:";
+   cin >>time;
+    int hours=time/3600;
+    int min=time/60-hours*60;
+	cout<<"hours"<<hours<<"min"<<min<<endl;
+	system("pause");
+	}
