@@ -1,0 +1,27 @@
+/*
+   Name:Project 2(8)
+   Author:Kostya Silchuk, group 109.
+   Description:Laboratory work N 2 Variables,constants and operators/ variant 13
+*/
+
+#include <iostream>
+using namespace std;
+
+void rev(int);
+
+int main()
+{	
+   int a;   
+   cout <<"to enter a:";
+   cin>>a;
+   rev(a);   
+   cout<<endl;
+   system ("pause");
+    return 0;
+	}	
+	void rev(int x)
+	{
+		cout<<x%10<<" ";
+		if (x>=10)
+		    rev(x/10);
+	}
