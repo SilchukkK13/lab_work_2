@@ -1,0 +1,35 @@
+/*
+   Name:Project 2(9)
+   Author:Kostya Silchuk, group 109.
+   Description:Laboratory work N 2 Variables,constants and operators/ variant 13
+*/
+#include <iostream>
+using namespace std;
+int main(int argc, char** argv) 
+{ 
+float sumDeposit = 0; // the amount of the deposit
+int amountMonth = 0; // number of months
+float profit = 0; // profit
+float annualRate = 5; // five percent per year
+int daysInYear = 365;
+int daysInMonth = 30; 
+cout << "to enter the deposit amount in dollars";
+ cin >> sumDeposit;
+cout << "to enter number of months:";
+ cin >> amountMonth; 
+cout << "\nCalculation\n";
+cout << "=======================================\n";
+cout << "percentage per month: ";
+//make a calculation and write to the variable profit
+profit = sumDeposit * (annualRate / 100) / daysInYear * daysInMonth; 
+cout << sumDeposit << " * " << annualRate << "% / " << daysInYear
+ << " * " << daysInMonth << " = " << profit << " $" << endl; 
+cout << "percents for the entire period: ";
+// multiply % for 1 month for the entire term of the deposit and write in profit
+profit *= amountMonth;
+cout << profit << " $" << endl; 
+cout << "Total payment at the end of the term: "
+ << sumDeposit + profit << " $";
+cout << endl << endl; 
+return 0;
+}
