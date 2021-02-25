@@ -1,0 +1,22 @@
+/*
+   Name:Project2.
+   Author:Kostya Silchuk, group 109.
+   Description:Laboratory work N:2 Variables,constants and operators/ variant 13
+*/
+#include <iostream>
+#include <conio.h>
+using namespace std;
+
+int main(int argc, char** argv) 
+{
+int Width;
+int Length;
+int Area;
+cout<<"to enter Width"<<endl;
+cin>>Width;
+cout<<"to enter Length"<<endl;
+cin>>Length;
+Area=Width*Length;
+cout<<"result:"<<Area<<endl;	
+	return 0;
+}
