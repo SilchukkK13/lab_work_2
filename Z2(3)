@@ -1,0 +1,15 @@
+/*
+   Name:Project 2(3)
+   Author:Kostya Silchuk, group 109.
+   Description:Laboratory work N 2 Variables,constants and operators/ variant 13
+*/
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+   cout<<"pi="<<M_PI<<endl;
+   cout<<endl;
+   system("pause");
+   return 0;
+}
