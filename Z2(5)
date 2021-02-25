@@ -1,0 +1,22 @@
+/*
+   Name:Project2(5).
+   Author:Kostya Silchuk, group 109.
+   Description:Laboratory work N:2 Variables,constants and operators/ variant 13
+*/
+#include <iostream>
+#include <conio.h>
+#include <math.h>
+//------------------
+using namespace std;
+int main()
+{
+	int a,h,s;
+	cout<<"to enter a"<<endl;
+	cin>>a;
+	cout<<"to enter h"<<endl;
+	cin>>h;
+	s=(a*h/2);
+	cout<<"result:"<<s<<endl;
+	getch();
+	return 0;
+}
