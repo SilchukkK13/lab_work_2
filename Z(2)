@@ -1,0 +1,17 @@
+/*
+   Name:Project 2(2)
+   Author:Kostya Silchuk, group 109.
+   Description:Laboratory work N 2 Variables,constants and operators/ variant 13
+*/
+#include <iostream>
+using namespace std;
+int main() 
+{
+	 int a=18;         //my Age
+	 int b=39;         //Area My Flat
+	 int c=300;       //how Many Stars,billion 
+	 int d=65;          //average rainfall in January 
+	cout<<"a="<<a<<"b="<<b<<"c="<<c<<"d="<<d<<endl;
+	cin>>a>>b>>c>>d;
+	return 0;
+}
