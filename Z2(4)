@@ -1,0 +1,22 @@
+/*
+   Name:Project 2(4).
+   Author:Kostya Silchuk, group 109.
+   Description:Laboratory work N:2 Variables,constants and operators/ variant 13
+*/
+#include <iostream>
+using namespace std;
+int main(int argc, char** argv) 
+{
+int a,b;
+float al,bl;
+a=5;
+b=3;
+cout<<"a%b="<<a%b<<endl;
+cin>>a>>b;
+al=5;
+bl=3;
+cout<<"al/bl="<<al/bl<<endl;
+cin>>al>>bl;
+system ("pause");
+return 0;
+}
